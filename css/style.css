@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+.headder{
+    display: flex;
+    gap: 900px;
+    align-items: center;
+}
+.logo{
+    align-items: center; /* 垂直方向の中央揃え */
+    justify-content: center; /* 水平方向の中央揃え */
+    background-color: antiquewhite; 
+    display: flex;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 45px;
+    width: 75px;
+    height: 75px;
+}
+
+.title{
+    font-family: 'Dancing Script', cursive;
+}
+
+.first{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width:device-width;
+    height: 200px;
+    margin-bottom: 4%;
+    margin-right: 35%;
+}
+.aisatsu{
+    background-image: url(../images/デスク2.jpg);
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 2500px;
+    height: 1000px;
+}
+.setumei{
+    font-size: 20px;
+    width: 1000px;
+}
+.contents{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    ul li::marker {
+        font-size: 0.7em; /* 小さくする */
+    }  
+    align-items: center;
+    width: 400px;
+    height: 300px;
+    margin-bottom: 500px;
+    font-size: 30px;
+}
+.section-title {
+    justify-content: center;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+}
+.section-title2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 11%;
+    margin-left: -1%;
+    margin-right: 60%;
+}
+  .section-title2::before,
+  .section-title2::after {
+    content: "";
+    flex: 1;
+    border-bottom: 3px solid #ccc;
+    margin: 0 10px;
+}  
+h2{
+    border-bottom: 3px solid black;
+    margin-right: 60%;
+}
+.AF {
+    font-size: 20px;
+
+}
+.naiyou{
+    justify-content: center;
+    margin: auto;
+    width: 1000px;
+    height: 1200px;
+    background-color: rgb(248, 247, 243) ;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+.button {
+    background-color: beige;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.button:hover {
+    transform: scale(1.2); /* 1.2倍に拡大 */
+    background-color: #2980b9; /* 色変化も追加 */
+}
+.test{
+    padding-top: 6%;
+}
+.hidden{
+    visibility: hidden;
+}
